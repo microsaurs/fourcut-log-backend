@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://fourcut-log-db.c9iq6ewcs7qj.ap-northeast-2.rds.amazonaws.com:3306/fourcut_log_db?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: admin
+    password: jhh9798!!
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  security:
+    oauth2:
+      client:
+        registration:
+          kakao:
+            client-id: faa14b5f39a4a556720b1c1f365a540c
+            client-secret: WRDYgcRxE57KTtbh7DxE4XyaxhQoIcZE
+          naver:
+            client-id: leZr29ORjwz1LfSAomyN
+            client-secret: u3nJfMqWgH
+
+jwt:
+  secret: dtnsEkqwCr/J6lMkyUCYwpdNERDdfgz+SpFp6D7nqTs=
